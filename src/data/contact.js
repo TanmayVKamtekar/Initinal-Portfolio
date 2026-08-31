@@ -11,8 +11,8 @@ export const contactInfo = [
   },
   {
     title: "GitHub",
-    value: "github.com/Tanmayty719",
-    link: "https://github.com/Tanmayty719",
+    value: "github.com/TanmayVKamtekar",
+    link: "https://github.com/TanmayVKamtekar",
   },
   {
     title: "Location",

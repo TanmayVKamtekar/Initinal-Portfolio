@@ -203,7 +203,7 @@ const Hero = () => {
               className="mt-7 flex items-center gap-3"
             >
               <a
-                href="https://github.com/Tanmayty719"
+                href="https://github.com/TanmayVKamtekar"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"

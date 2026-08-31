@@ -104,7 +104,7 @@ export const projects = [
       "Vercel",
     ],
 
-    github: "https://github.com/Tanmayty719/Initinal-Portfolio",
+    github: "https://github.com/TanmayVKamtekar/Initinal-Portfolio",
 
     live: "https://my-portfolio-tvk-one.vercel.app/",
   },
