@@ -1,7 +1,7 @@
 export const experiences = [
   {
     role: "Full Stack Web Developer Intern",
-    company: "V-Arts Services Pvt. Ltd.",
+    company: "V-Art Services Pvt. Ltd.",
     location: "Andheri, Maharashtra",
     duration: "Dec 2025",
 
