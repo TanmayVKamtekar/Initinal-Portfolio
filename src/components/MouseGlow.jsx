@@ -39,7 +39,7 @@ const MouseGlow = () => {
         w-[350px]
         h-[350px]
         rounded-full
-        bg-cyan-400/20
+        bg--[#1558C9]/20
         blur-[90px]
         z-10
       "
