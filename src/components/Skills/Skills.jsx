@@ -6,12 +6,12 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="relative overflow-hidden bg-[#08090d] py-24 sm:py-28"
+      className="relative overflow-hidden bg-[#030407] py-24 sm:py-28"
     >
       {/* Background accents */}
-      <div className="pointer-events-none absolute left-[-160px] top-1/4 h-96 w-96 rounded-full bg-cyan-400/[0.035] blur-[130px]" />
+      <div className="pointer-events-none absolute left-[-160px] top-1/4 h-96 w-96 rounded-full bg--[#1558C9]/[0.035] blur-[130px]" />
 
-      <div className="pointer-events-none absolute right-[-180px] bottom-0 h-96 w-96 rounded-full bg-violet-500/[0.05] blur-[130px]" />
+      <div className="pointer-events-none absolute right-[-180px] bottom-0 h-96 w-96 rounded-full bg--[#D4FF24]/[0.05] blur-[130px]" />
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
         {/* Header */}
@@ -23,9 +23,9 @@ const Skills = () => {
           className="max-w-3xl"
         >
           <div className="mb-4 flex items-center gap-3">
-            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-cyan-400" />
+            <span className="h-px w-10 bg-gradient-to-r from--[#D4FF24] to--[#1558C9]" />
 
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-violet-300">
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text--[#D4FF24]">
               Capabilities
             </span>
           </div>
@@ -96,7 +96,7 @@ const Skills = () => {
           transition={{ delay: 0.2, duration: 0.5 }}
           className="mt-14 flex items-center gap-2 text-sm text-slate-600"
         >
-          <span className="h-1.5 w-1.5 rounded-full bg-cyan-400" />
+          <span className="h-1.5 w-1.5 rounded-full bg--[#1558C9]" />
           Focused on clean code, practical solutions, and continuous learning.
         </motion.div>
       </div>
