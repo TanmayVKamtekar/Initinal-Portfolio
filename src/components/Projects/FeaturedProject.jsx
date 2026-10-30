@@ -105,8 +105,8 @@ const FeaturedProject = ({ project }) => {
                     gap-2
                     rounded-xl
                     bg-gradient-to-r
-                    from--[#D4FF24]
-                    to--[#1558C9]
+                    from-[#D4FF24]
+                    to-[#1558C9]
                     px-5
                     py-3
                     text-sm
@@ -144,7 +144,7 @@ const FeaturedProject = ({ project }) => {
                     transition-all
                     duration-300
                     hover:-translate-y-1
-                    hover:border--[#D4FF24]/30
+                    hover:border-[#D4FF24]/30
                     hover:bg-white/[0.06]
                   "
                 >
