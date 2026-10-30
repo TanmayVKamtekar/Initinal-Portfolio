@@ -33,7 +33,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative overflow-hidden bg-[#0d0f14] py-24 sm:py-28"
+      className="relative overflow-hidden bg-[#070b14] py-24 sm:py-28"
     >
       {/* Background accents */}
       <div className="pointer-events-none absolute -right-40 top-20 h-96 w-96 rounded-full bg-violet-500/[0.05] blur-[130px]" />
@@ -52,9 +52,9 @@ const About = () => {
           className="mb-14"
         >
           <div className="mb-4 flex items-center gap-3">
-            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-cyan-400" />
+            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-[#1558C9]" />
 
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-violet-300">
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#D4FF24]">
               About Me
             </span>
           </div>
@@ -114,7 +114,7 @@ const About = () => {
             {/* Small principle */}
 
             <div className="mt-8 flex items-center gap-3 border-l border-violet-400/40 pl-4">
-              <span className="h-2 w-2 rounded-full bg-violet-400" />
+              <span className="h-2 w-2 rounded-full bg-[#D4FF24]" />
 
               <p className="text-sm font-medium text-slate-300">
                 Build. Learn. Improve. Repeat.
