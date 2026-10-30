@@ -21,7 +21,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="relative overflow-hidden bg-[#08090d] py-24 sm:py-28"
+      className="relative overflow-hidden bg-[#030407] py-24 sm:py-28"
     >
       {/* Background accents */}
 
@@ -43,9 +43,9 @@ const Contact = () => {
           {/* Label */}
 
           <div className="mb-6 flex items-center gap-3">
-            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-cyan-400" />
+            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-[#1558C9]" />
 
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-violet-300">
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#D4FF24]">
               Contact
             </span>
           </div>
@@ -260,7 +260,7 @@ const Contact = () => {
           transition={{ delay: 0.2, duration: 0.5 }}
           className="flex items-center gap-3 border-t border-white/[0.07] pt-8"
         >
-          <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" />
+          <span className="h-2 w-2 animate-pulse rounded-full bg-[#D4FF24]" />
 
           <p className="text-sm text-slate-500">
             Currently open to internship and entry-level opportunities.
