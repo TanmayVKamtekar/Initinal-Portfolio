@@ -24,7 +24,7 @@ const FeaturedProject = ({ project }) => {
     >
       {/* Top label */}
       <div className="flex items-center justify-between border-b border-white/[0.07] px-6 py-4 sm:px-8">
-        <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#D4FF24]">
+        <span className="text-xs font-semibold uppercase tracking-[0.22em] text-violet-300">
           01 / Featured Project
         </span>
 
@@ -34,7 +34,7 @@ const FeaturedProject = ({ project }) => {
       </div>
 
       {/* Project image */}
-      <div className="overflow-hidden bg-[#030407] p-4 sm:p-6 lg:p-8">
+      <div className="overflow-hidden bg-[#08090d] p-4 sm:p-6 lg:p-8">
         <div className="overflow-hidden rounded-2xl border border-white/[0.08] bg-black">
           <motion.img
             src={project.image}
@@ -58,7 +58,7 @@ const FeaturedProject = ({ project }) => {
           
           {/* Left */}
           <div>
-            <p className="text-sm font-medium text-[#D4FF24]">
+            <p className="text-sm font-medium text-violet-300">
               {project.subtitle}
             </p>
 
@@ -105,8 +105,8 @@ const FeaturedProject = ({ project }) => {
                     gap-2
                     rounded-xl
                     bg-gradient-to-r
-                    from-[#D4FF24]
-                    to-[#1558C9]
+                    from-violet-500
+                    to-cyan-400
                     px-5
                     py-3
                     text-sm
@@ -115,7 +115,7 @@ const FeaturedProject = ({ project }) => {
                     transition-all
                     duration-300
                     hover:-translate-y-1
-                    hover:shadow-[0_10px_30px_rgba(21, 88, 201,0.25)]
+                    hover:shadow-[0_10px_30px_rgba(139,92,246,0.25)]
                   "
                 >
                   <FaExternalLinkAlt className="text-xs" />
@@ -144,7 +144,7 @@ const FeaturedProject = ({ project }) => {
                     transition-all
                     duration-300
                     hover:-translate-y-1
-                    hover:border-[#D4FF24]/30
+                    hover:border-violet-400/30
                     hover:bg-white/[0.06]
                   "
                 >
@@ -171,7 +171,7 @@ const FeaturedProject = ({ project }) => {
                   key={feature}
                   className="flex items-start gap-3 text-sm text-slate-400"
                 >
-                  <FaCheckCircle className="mt-1 shrink-0 text-[#D4FF24]" />
+                  <FaCheckCircle className="mt-1 shrink-0 text-violet-400" />
                   <span>{feature}</span>
                 </div>
               ))}
