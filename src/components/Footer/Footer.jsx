@@ -15,7 +15,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative overflow-hidden border-t border-white/[0.07] bg-[#08090d]">
+    <footer className="relative overflow-hidden border-t border-white/[0.07] bg-[#030407]">
       {/* Subtle background accents */}
 
       <div className="pointer-events-none absolute left-1/4 top-0 h-64 w-64 rounded-full bg-violet-500/[0.025] blur-[110px]" />
@@ -187,7 +187,7 @@ const Footer = () => {
           rounded-xl
           border
           border-white/[0.08]
-          bg-[#11141b]/90
+          bg-[#0a101c]/90
           text-slate-400
           shadow-xl
           backdrop-blur-xl
