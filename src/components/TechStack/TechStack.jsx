@@ -76,11 +76,11 @@ const TechStack = () => {
   return (
     <section
       id="tech-stack"
-      className="relative overflow-hidden bg-[#030407] py-24 sm:py-28"
+      className="relative overflow-hidden bg-[#08090d] py-24 sm:py-28"
     >
       {/* Background accents */}
-      <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-[#D4FF24]/[0.05] blur-[130px]" />
-      <div className="pointer-events-none absolute -right-40 bottom-10 h-96 w-96 rounded-full bg-[#1558C9]/[0.04] blur-[130px]" />
+      <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-violet-500/[0.05] blur-[130px]" />
+      <div className="pointer-events-none absolute -right-40 bottom-10 h-96 w-96 rounded-full bg-cyan-400/[0.04] blur-[130px]" />
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
         {/* Header */}
@@ -92,9 +92,9 @@ const TechStack = () => {
           className="max-w-3xl"
         >
           <div className="mb-4 flex items-center gap-3">
-            <span className="h-px w-10 bg-gradient-to-r from-[#D4FF24] to-[#1558C9]" />
+            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-cyan-400" />
 
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#D4FF24]">
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-violet-300">
               Technologies
             </span>
           </div>
@@ -166,12 +166,12 @@ const TechStack = () => {
                         text-slate-300
                         transition-all
                         duration-300
-                        hover:border-[#D4FF24]/30
-                        hover:bg-[#D4FF24]/[0.06]
+                        hover:border-violet-400/30
+                        hover:bg-violet-500/[0.06]
                         hover:text-white
                       "
                     >
-                      <Icon className="text-base text-slate-500 transition-colors duration-300 group-hover:text-[#D4FF24]" />
+                      <Icon className="text-base text-slate-500 transition-colors duration-300 group-hover:text-violet-300" />
 
                       <span>{skill.name}</span>
                     </motion.div>
@@ -190,7 +190,7 @@ const TechStack = () => {
           transition={{ delay: 0.2, duration: 0.5 }}
           className="mt-6 flex items-center gap-2 text-sm text-slate-600"
         >
-          <span className="h-1.5 w-1.5 rounded-full bg-[#D4FF24]" />
+          <span className="h-1.5 w-1.5 rounded-full bg-violet-400" />
           Continuously learning and expanding my stack.
         </motion.div>
       </div>
