@@ -4,10 +4,10 @@ import { Link } from "react-scroll";
 import profile from "../../assets/images/profile.png";
 
 const Hero = () => (
-  <section id="home" className="relative min-h-[calc(100vh-5rem)] overflow-hidden bg-[#030407] pt-32 pb-16 sm:pt-36 lg:pt-28">
+  <section id="home" className="relative z-10 min-h-[calc(100vh-5rem)] overflow-hidden bg-[#030407] pt-32 pb-16 sm:pt-36 lg:pt-28">
     <div aria-hidden="true" className="pointer-events-none absolute -left-32 top-24 h-80 w-80 rounded-full bg-[#1558C9]/20 blur-[120px]" />
     <div aria-hidden="true" className="pointer-events-none absolute right-0 top-1/4 h-96 w-96 rounded-full bg-[#1558C9]/10 blur-[130px]" />
-    <div className="relative mx-auto grid max-w-6xl items-center gap-14 px-6 lg:grid-cols-[1.1fr_.9fr] lg:px-8">
+    <div className="relative z-10 mx-auto grid max-w-6xl items-center gap-14 px-6 lg:grid-cols-[1.1fr_.9fr] lg:px-8">
       <div className="max-w-2xl">
         <div className="mb-6 flex items-center gap-3"><span className="h-px w-10 bg-[#D4FF24]" /><span className="text-xs font-bold uppercase tracking-[0.24em] text-[#D4FF24]">Full Stack Web Developer</span></div>
         <div className="mb-7 inline-flex items-center gap-2.5 rounded-full border border-[#1558C9]/50 bg-[#0b1425] px-4 py-2"><span className="h-2 w-2 rounded-full bg-[#D4FF24]" /><span className="text-sm font-medium text-slate-200">Open to Full Stack Opportunities</span></div>
