@@ -105,8 +105,8 @@ const FeaturedProject = ({ project }) => {
                     gap-2
                     rounded-xl
                     bg-gradient-to-r
-                    from-violet-500
-                    to-cyan-400
+                    from--[#D4FF24]
+                    to--[#1558C9]
                     px-5
                     py-3
                     text-sm
@@ -115,7 +115,7 @@ const FeaturedProject = ({ project }) => {
                     transition-all
                     duration-300
                     hover:-translate-y-1
-                    hover:shadow-[0_10px_30px_rgba(139,92,246,0.25)]
+                    hover:shadow-[0_10px_30px_rgba(21, 88, 201,0.25)]
                   "
                 >
                   <FaExternalLinkAlt className="text-xs" />
@@ -144,7 +144,7 @@ const FeaturedProject = ({ project }) => {
                     transition-all
                     duration-300
                     hover:-translate-y-1
-                    hover:border-violet-400/30
+                    hover:border--[#D4FF24]/30
                     hover:bg-white/[0.06]
                   "
                 >
