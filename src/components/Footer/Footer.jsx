@@ -18,9 +18,9 @@ const Footer = () => {
     <footer className="relative overflow-hidden border-t border-white/[0.07] bg-[#030407]">
       {/* Subtle background accents */}
 
-      <div className="pointer-events-none absolute left-1/4 top-0 h-64 w-64 rounded-full bg-violet-500/[0.025] blur-[110px]" />
+      <div className="pointer-events-none absolute left-1/4 top-0 h-64 w-64 rounded-full bg--[#D4FF24]/[0.025] blur-[110px]" />
 
-      <div className="pointer-events-none absolute right-1/4 bottom-0 h-64 w-64 rounded-full bg-cyan-400/[0.02] blur-[110px]" />
+      <div className="pointer-events-none absolute right-1/4 bottom-0 h-64 w-64 rounded-full bg--[#1558C9]/[0.02] blur-[110px]" />
 
       <div className="relative mx-auto max-w-6xl px-6 py-12 lg:px-8">
         <motion.div
@@ -48,15 +48,15 @@ const Footer = () => {
                   justify-center
                   rounded-xl
                   bg-gradient-to-br
-                  from-violet-500
-                  to-cyan-400
+                  from--[#D4FF24]
+                  to--[#1558C9]
                   text-xs
                   font-black
                   text-white
                   transition-all
                   duration-300
                   hover:-translate-y-1
-                  hover:shadow-[0_0_20px_rgba(139,92,246,0.25)]
+                  hover:shadow-[0_0_20px_rgba(21, 88, 201,0.25)]
                 "
               >
                 TK
@@ -94,8 +94,8 @@ const Footer = () => {
                   text-slate-500
                   transition-all
                   duration-300
-                  hover:border-violet-400/30
-                  hover:bg-violet-500/[0.08]
+                  hover:border--[#D4FF24]/30
+                  hover:bg--[#D4FF24]/[0.08]
                   hover:text-white
                 "
               >
@@ -120,8 +120,8 @@ const Footer = () => {
                   text-slate-500
                   transition-all
                   duration-300
-                  hover:border-cyan-400/30
-                  hover:bg-cyan-400/[0.08]
+                  hover:border--[#1558C9]/30
+                  hover:bg--[#1558C9]/[0.08]
                   hover:text-white
                 "
               >
@@ -144,8 +144,8 @@ const Footer = () => {
                   text-slate-500
                   transition-all
                   duration-300
-                  hover:border-violet-400/30
-                  hover:bg-violet-500/[0.08]
+                  hover:border--[#D4FF24]/30
+                  hover:bg--[#D4FF24]/[0.08]
                   hover:text-white
                 "
               >
@@ -194,8 +194,8 @@ const Footer = () => {
           transition-all
           duration-300
           hover:-translate-y-1
-          hover:border-violet-400/30
-          hover:bg-violet-500/10
+          hover:border--[#D4FF24]/30
+          hover:bg--[#D4FF24]/10
           hover:text-white
         "
       >
