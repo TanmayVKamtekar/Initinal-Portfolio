@@ -10,7 +10,7 @@ const Education = () => {
   return (
     <section
       id="education"
-      className="relative overflow-hidden bg-[#0d0f14] py-24 sm:py-28"
+      className="relative overflow-hidden bg-[#070b14] py-24 sm:py-28"
     >
       {/* Background accents */}
       <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-violet-500/[0.045] blur-[130px]" />
@@ -29,9 +29,9 @@ const Education = () => {
           className="max-w-3xl"
         >
           <div className="mb-4 flex items-center gap-3">
-            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-cyan-400" />
+            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-[#1558C9]" />
 
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-violet-300">
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#D4FF24]">
               Education
             </span>
           </div>
@@ -81,7 +81,7 @@ const Education = () => {
                 {/* Icon */}
 
                 <div>
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.04] text-violet-300">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.04] text-[#D4FF24]">
                     <FaGraduationCap className="text-lg" />
                   </div>
                 </div>
@@ -90,7 +90,7 @@ const Education = () => {
 
                 <div>
                   <div className="flex flex-wrap items-center gap-3">
-                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-violet-300">
+                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#D4FF24]">
                       {item.status === "Currently Pursuing"
                         ? "Current"
                         : "Completed"}
