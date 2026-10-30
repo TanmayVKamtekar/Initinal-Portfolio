@@ -1,7 +1,6 @@
 import {
   ScrollProgress,
   MouseGlow,
-  //Button,
   Navbar,
   Hero,
   TechStack,
@@ -9,7 +8,6 @@ import {
   Skills,
   Experience,
   Projects,
- // Github,
   Education,
   Contact,
   Footer,
@@ -17,21 +15,23 @@ import {
 
 function App() {
   return (
-    <div className="bg-[#030407] text-white overflow-x-hidden">
+    <div className="relative isolate min-h-screen overflow-x-hidden bg-[#030407] text-white">
+      <MouseGlow />
       <ScrollProgress />
-      {/* <Button /> */}
-      <MouseGlow />  
-      <Navbar />
-      <Hero />
-      <TechStack />
-      <About />
-      <Skills />
-      <Experience />
-      <Projects />
-      {/* <Github /> */}
-      <Education />
-      <Contact />
-      <Footer />
+      <div className="relative z-10">
+        <Navbar />
+        <main>
+          <Hero />
+          <TechStack />
+          <About />
+          <Skills />
+          <Experience />
+          <Projects />
+          <Education />
+          <Contact />
+        </main>
+        <Footer />
+      </div>
     </div>
   );
 }
