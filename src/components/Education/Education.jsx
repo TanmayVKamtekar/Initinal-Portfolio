@@ -13,9 +13,9 @@ const Education = () => {
       className="relative overflow-hidden bg-[#070b14] py-24 sm:py-28"
     >
       {/* Background accents */}
-      <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-violet-500/[0.045] blur-[130px]" />
+      <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg--[#D4FF24]/[0.045] blur-[130px]" />
 
-      <div className="pointer-events-none absolute -right-40 bottom-0 h-96 w-96 rounded-full bg-cyan-400/[0.035] blur-[130px]" />
+      <div className="pointer-events-none absolute -right-40 bottom-0 h-96 w-96 rounded-full bg--[#1558C9]/[0.035] blur-[130px]" />
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
 
@@ -29,7 +29,7 @@ const Education = () => {
           className="max-w-3xl"
         >
           <div className="mb-4 flex items-center gap-3">
-            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-[#1558C9]" />
+            <span className="h-px w-10 bg-gradient-to-r from--[#D4FF24] to-[#1558C9]" />
 
             <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#D4FF24]">
               Education
@@ -72,7 +72,7 @@ const Education = () => {
                 backdrop-blur-sm
                 transition-all
                 duration-300
-                hover:border-violet-400/20
+                hover:border--[#D4FF24]/20
                 sm:p-8
               "
             >
