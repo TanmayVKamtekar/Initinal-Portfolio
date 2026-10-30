@@ -26,7 +26,7 @@ const SkillCard = ({ skill, index = 0 }) => {
         backdrop-blur-sm
         transition-all
         duration-300
-        hover:border--[#D4FF24]/30
+        hover:border-[#D4FF24]/30
         hover:bg-white/[0.04]
         hover:shadow-[0_18px_50px_rgba(0,0,0,0.2)]
       "
@@ -41,7 +41,7 @@ const SkillCard = ({ skill, index = 0 }) => {
           h-32
           w-32
           rounded-full
-          bg--[#D4FF24]/[0.08]
+          bg-[#D4FF24]/[0.08]
           blur-[55px]
           opacity-0
           transition
@@ -64,11 +64,11 @@ const SkillCard = ({ skill, index = 0 }) => {
               border
               border-white/[0.08]
               bg-white/[0.04]
-              text--[#D4FF24]
+              text-[#D4FF24]
               transition-all
               duration-300
-              group-hover:border--[#D4FF24]/30
-              group-hover:bg--[#D4FF24]/10
+              group-hover:border-[#D4FF24]/30
+              group-hover:bg-[#D4FF24]/10
             "
           >
             <Icon className="text-xl" />
@@ -82,7 +82,7 @@ const SkillCard = ({ skill, index = 0 }) => {
               duration-300
               group-hover:-translate-y-1
               group-hover:translate-x-1
-              group-hover:text--[#D4FF24]
+              group-hover:text-[#D4FF24]
             "
           />
         </div>
