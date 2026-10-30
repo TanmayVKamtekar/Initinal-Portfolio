@@ -17,7 +17,7 @@ import {
 
 function App() {
   return (
-    <div className="bg-slate-950 text-white overflow-x-hidden">
+    <div className="bg-[#030407] text-white overflow-x-hidden">
       <ScrollProgress />
       {/* <Button /> */}
       <MouseGlow />  
