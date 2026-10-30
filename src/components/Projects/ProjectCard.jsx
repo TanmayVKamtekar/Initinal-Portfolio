@@ -43,7 +43,7 @@ const ProjectCard = ({ project, index = 0 }) => {
             {String(index + 2).padStart(2, "0")}
           </p>
 
-          <p className="mt-5 text-sm font-medium text-violet-300">
+          <p className="mt-5 text-sm font-medium text-[#D4FF24]">
             {project.subtitle}
           </p>
 
@@ -105,7 +105,7 @@ const ProjectCard = ({ project, index = 0 }) => {
                 key={item}
                 className="flex items-start gap-3 text-sm text-slate-400"
               >
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-violet-400" />
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#D4FF24]" />
                 <span>{item}</span>
               </div>
             ))}
