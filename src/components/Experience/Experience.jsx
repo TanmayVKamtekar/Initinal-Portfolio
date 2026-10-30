@@ -12,7 +12,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="relative overflow-hidden bg-[#0d0f14] py-24 sm:py-28"
+      className="relative overflow-hidden bg-[#070b14] py-24 sm:py-28"
     >
       {/* Background accents */}
       <div className="pointer-events-none absolute -left-40 top-20 h-96 w-96 rounded-full bg-violet-500/[0.045] blur-[130px]" />
@@ -30,9 +30,9 @@ const Experience = () => {
           className="max-w-3xl"
         >
           <div className="mb-4 flex items-center gap-3">
-            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-cyan-400" />
+            <span className="h-px w-10 bg-gradient-to-r from-violet-400 to-[#1558C9]" />
 
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-violet-300">
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#D4FF24]">
               Experience
             </span>
           </div>
@@ -66,7 +66,7 @@ const Experience = () => {
                 {/* Left meta */}
                 <div className="relative pb-8 lg:pb-0">
                   <div className="flex items-center gap-3">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.03] text-violet-300">
+                    <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/[0.08] bg-white/[0.03] text-[#D4FF24]">
                       <FaBriefcase className="text-sm" />
                     </div>
 
@@ -97,7 +97,7 @@ const Experience = () => {
                     {/* Company + Role */}
                     <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
                       <div>
-                        <p className="text-sm font-medium text-violet-300">
+                        <p className="text-sm font-medium text-[#D4FF24]">
                           {exp.company}
                         </p>
 
@@ -106,8 +106,8 @@ const Experience = () => {
                         </h3>
                       </div>
 
-                      <span className="inline-flex w-fit items-center gap-2 rounded-full border border-emerald-400/15 bg-emerald-400/[0.05] px-3 py-1.5 text-xs font-medium text-emerald-300">
-                        <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
+                      <span className="inline-flex w-fit items-center gap-2 rounded-full border border-emerald-400/15 bg-emerald-400/[0.05] px-3 py-1.5 text-xs font-medium text-[#D4FF24]">
+                        <span className="h-1.5 w-1.5 rounded-full bg-[#D4FF24]" />
                         Client-facing experience
                       </span>
                     </div>
@@ -133,7 +133,7 @@ const Experience = () => {
                             key={item}
                             className="flex items-start gap-3 text-sm leading-6 text-slate-400"
                           >
-                            <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-violet-400" />
+                            <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#D4FF24]" />
                             <span>{item}</span>
                           </div>
                         ))}
