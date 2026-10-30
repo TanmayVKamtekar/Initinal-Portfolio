@@ -24,7 +24,7 @@ const FeaturedProject = ({ project }) => {
     >
       {/* Top label */}
       <div className="flex items-center justify-between border-b border-white/[0.07] px-6 py-4 sm:px-8">
-        <span className="text-xs font-semibold uppercase tracking-[0.22em] text-violet-300">
+        <span className="text-xs font-semibold uppercase tracking-[0.22em] text-[#D4FF24]">
           01 / Featured Project
         </span>
 
@@ -34,7 +34,7 @@ const FeaturedProject = ({ project }) => {
       </div>
 
       {/* Project image */}
-      <div className="overflow-hidden bg-[#08090d] p-4 sm:p-6 lg:p-8">
+      <div className="overflow-hidden bg-[#030407] p-4 sm:p-6 lg:p-8">
         <div className="overflow-hidden rounded-2xl border border-white/[0.08] bg-black">
           <motion.img
             src={project.image}
@@ -58,7 +58,7 @@ const FeaturedProject = ({ project }) => {
           
           {/* Left */}
           <div>
-            <p className="text-sm font-medium text-violet-300">
+            <p className="text-sm font-medium text-[#D4FF24]">
               {project.subtitle}
             </p>
 
@@ -171,7 +171,7 @@ const FeaturedProject = ({ project }) => {
                   key={feature}
                   className="flex items-start gap-3 text-sm text-slate-400"
                 >
-                  <FaCheckCircle className="mt-1 shrink-0 text-violet-400" />
+                  <FaCheckCircle className="mt-1 shrink-0 text-[#D4FF24]" />
                   <span>{feature}</span>
                 </div>
               ))}
