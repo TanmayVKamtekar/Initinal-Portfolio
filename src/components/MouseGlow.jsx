@@ -2,47 +2,20 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 const MouseGlow = () => {
-  const [mouse, setMouse] = useState({
-    x: -500,
-    y: -500,
-  });
+  const [mouse, setMouse] = useState({ x: -500, y: -500 });
 
   useEffect(() => {
-    const move = (e) => {
-      setMouse({
-        x: e.clientX,
-        y: e.clientY,
-      });
-    };
-
-    window.addEventListener("mousemove", move);
-
+    const move = (event) => setMouse({ x: event.clientX, y: event.clientY });
+    window.addEventListener("mousemove", move, { passive: true });
     return () => window.removeEventListener("mousemove", move);
   }, []);
 
   return (
     <motion.div
-      animate={{
-        x: mouse.x - 175,
-        y: mouse.y - 175,
-      }}
-      transition={{
-        type: "tween",
-        ease: "linear",
-        duration: 0.15,
-      }}
-      className="
-        pointer-events-none
-        fixed
-        top-0
-        left-0
-        w-[350px]
-        h-[350px]
-        rounded-full
-        bg-[#1558C9]/[0.16]
-        blur-[110px]
-        z-0
-      "
+      aria-hidden="true"
+      animate={{ x: mouse.x - 160, y: mouse.y - 160 }}
+      transition={{ type: "tween", ease: "linear", duration: 0.22 }}
+      className="pointer-events-none fixed left-0 top-0 z-0 h-80 w-80 rounded-full bg-[#1558C9]/[0.10] blur-[100px]"
     />
   );
 };
