@@ -25,9 +25,9 @@ const Contact = () => {
     >
       {/* Background accents */}
 
-      <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[700px] -translate-x-1/2 rounded-full bg-gradient-to-r from--[#D4FF24]/[0.06] via--[#1558C9]/[0.04] to--[#D4FF24]/[0.06] blur-[150px]" />
+      <div className="pointer-events-none absolute left-1/2 top-0 h-[500px] w-[700px] -translate-x-1/2 rounded-full bg-gradient-to-r from-[#D4FF24]/[0.06] via-[#1558C9]/[0.04] to-[#D4FF24]/[0.06] blur-[150px]" />
 
-      <div className="pointer-events-none absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg--[#D4FF24]/[0.04] blur-[130px]" />
+      <div className="pointer-events-none absolute -bottom-40 -left-40 h-96 w-96 rounded-full bg-[#D4FF24]/[0.04] blur-[130px]" />
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
 
@@ -43,7 +43,7 @@ const Contact = () => {
           {/* Label */}
 
           <div className="mb-6 flex items-center gap-3">
-            <span className="h-px w-10 bg-gradient-to-r from--[#D4FF24] to-[#1558C9]" />
+            <span className="h-px w-10 bg-gradient-to-r from-[#D4FF24] to-[#1558C9]" />
 
             <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#D4FF24]">
               Contact
@@ -80,8 +80,8 @@ const Contact = () => {
                 gap-2
                 rounded-xl
                 bg-gradient-to-r
-                from--[#D4FF24]
-                to--[#1558C9]
+                from-[#D4FF24]
+                to-[#1558C9]
                 px-6
                 py-3.5
                 font-semibold
@@ -118,7 +118,7 @@ const Contact = () => {
                 transition-all
                 duration-300
                 hover:-translate-y-1
-                hover:border--[#D4FF24]/30
+                hover:border-[#D4FF24]/30
                 hover:bg-white/[0.05]
                 active:scale-95
                 sm:w-auto
@@ -157,9 +157,9 @@ const Contact = () => {
                     text-slate-400
                     transition
                     duration-300
-                    group-hover:border--[#D4FF24]/30
-                    group-hover:bg--[#D4FF24]/[0.08]
-                    group-hover:text--[#D4FF24]
+                    group-hover:border-[#D4FF24]/30
+                    group-hover:bg-[#D4FF24]/[0.08]
+                    group-hover:text-[#D4FF24]
                   "
                 >
                   <Icon className="text-sm" />
@@ -241,7 +241,7 @@ const Contact = () => {
                   p-4
                   transition-all
                   duration-300
-                  hover:border--[#D4FF24]/20
+                  hover:border-[#D4FF24]/20
                   hover:bg-white/[0.035]
                 "
               >
