@@ -31,7 +31,7 @@ const ProjectCard = ({ project, index = 0 }) => {
         backdrop-blur-sm
         transition-all
         duration-300
-        hover:border--[#D4FF24]/25
+        hover:border-[#D4FF24]/25
         hover:bg-white/[0.035]
         sm:p-8
       "
@@ -69,8 +69,8 @@ const ProjectCard = ({ project, index = 0 }) => {
             text-slate-500
             transition
             duration-300
-            group-hover:border--[#D4FF24]/30
-            group-hover:text--[#D4FF24]
+            group-hover:border-[#D4FF24]/30
+            group-hover:text-[#D4FF24]
           "
         >
           {isClientProject ? "01" : isPortfolioProject ? "02" : "03"}
@@ -158,7 +158,7 @@ const ProjectCard = ({ project, index = 0 }) => {
               font-semibold
               text-slate-300
               transition
-              hover:border--[#D4FF24]/30
+              hover:border-[#D4FF24]/30
               hover:text-white
             "
           >
