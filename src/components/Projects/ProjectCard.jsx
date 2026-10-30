@@ -31,7 +31,7 @@ const ProjectCard = ({ project, index = 0 }) => {
         backdrop-blur-sm
         transition-all
         duration-300
-        hover:border-[#D4FF24]/25
+        hover:border-violet-400/25
         hover:bg-white/[0.035]
         sm:p-8
       "
@@ -43,7 +43,7 @@ const ProjectCard = ({ project, index = 0 }) => {
             {String(index + 2).padStart(2, "0")}
           </p>
 
-          <p className="mt-5 text-sm font-medium text-[#D4FF24]">
+          <p className="mt-5 text-sm font-medium text-violet-300">
             {project.subtitle}
           </p>
 
@@ -69,8 +69,8 @@ const ProjectCard = ({ project, index = 0 }) => {
             text-slate-500
             transition
             duration-300
-            group-hover:border-[#D4FF24]/30
-            group-hover:text-[#D4FF24]
+            group-hover:border-violet-400/30
+            group-hover:text-violet-300
           "
         >
           {isClientProject ? "01" : isPortfolioProject ? "02" : "03"}
@@ -105,7 +105,7 @@ const ProjectCard = ({ project, index = 0 }) => {
                 key={item}
                 className="flex items-start gap-3 text-sm text-slate-400"
               >
-                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#D4FF24]" />
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-violet-400" />
                 <span>{item}</span>
               </div>
             ))}
@@ -158,7 +158,7 @@ const ProjectCard = ({ project, index = 0 }) => {
               font-semibold
               text-slate-300
               transition
-              hover:border-[#D4FF24]/30
+              hover:border-violet-400/30
               hover:text-white
             "
           >
