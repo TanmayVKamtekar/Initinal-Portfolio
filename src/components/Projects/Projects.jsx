@@ -10,9 +10,9 @@ const Projects = () => {
       className="relative overflow-hidden bg-[#070b14] py-24 sm:py-28"
     >
       {/* Background accents */}
-      <div className="pointer-events-none absolute left-[-180px] top-20 h-[420px] w-[420px] rounded-full bg--[#D4FF24]/[0.05] blur-[140px]" />
+      <div className="pointer-events-none absolute left-[-180px] top-20 h-[420px] w-[420px] rounded-full bg-[#D4FF24]/[0.05] blur-[140px]" />
 
-      <div className="pointer-events-none absolute right-[-160px] bottom-20 h-[380px] w-[380px] rounded-full bg--[#1558C9]/[0.04] blur-[130px]" />
+      <div className="pointer-events-none absolute right-[-160px] bottom-20 h-[380px] w-[380px] rounded-full bg-[#1558C9]/[0.04] blur-[130px]" />
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
 
@@ -25,9 +25,9 @@ const Projects = () => {
           className="max-w-3xl"
         >
           <div className="mb-4 flex items-center gap-3">
-            <span className="h-px w-10 bg-gradient-to-r from--[#D4FF24] to--[#1558C9]" />
+            <span className="h-px w-10 bg-gradient-to-r from-[#D4FF24] to-[#1558C9]" />
 
-            <span className="text-xs font-semibold uppercase tracking-[0.25em] text--[#D4FF24]">
+            <span className="text-xs font-semibold uppercase tracking-[0.25em] text-[#D4FF24]">
               Selected Work
             </span>
           </div>
